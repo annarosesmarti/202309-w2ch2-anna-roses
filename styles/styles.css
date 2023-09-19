@@ -57,11 +57,20 @@ article {
   display: flex;
 }
 
-.container-text-image {
-  left: 18rem;
-  top: 2rem;
-  background-color: var(--main-color);
-  padding: 0 1rem;
+.parent-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  background-color: #f09b93ab;
+  padding: 10px;
+  border-color: #f09b932c;
+  border-radius: 10%;
 }
 
 h2 {
@@ -70,6 +79,6 @@ h2 {
 }
 
 .landscapes {
-  width: 300px;
+  width: 280px;
   margin: 10px;
 }
