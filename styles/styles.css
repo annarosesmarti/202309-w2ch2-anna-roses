@@ -51,13 +51,17 @@ article {
   padding-top: 20px;
 }
 
-section {
+.next-trips-images {
   padding: 0;
   padding-top: 20px;
   display: flex;
 }
 
-.next-trips {
+.container-text-image {
+  left: 18rem;
+  top: 2rem;
+  background-color: var(--main-color);
+  padding: 0 1rem;
 }
 
 h2 {
