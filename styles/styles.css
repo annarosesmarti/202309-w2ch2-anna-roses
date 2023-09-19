@@ -25,7 +25,7 @@ p {
 
 ul {
   list-style: none;
-  padding: 0;
+  padding: 10px;
   margin: 0;
   background-color: #e9dd8a;
 }
@@ -49,6 +49,7 @@ li {
 
 article {
   padding-top: 20px;
+  padding-left: 10px;
 }
 
 .next-trips-images {
@@ -81,4 +82,11 @@ h2 {
 .landscapes {
   width: 280px;
   margin: 10px;
+}
+
+footer {
+  background-color: #e9dd8a;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.8rem;
 }
