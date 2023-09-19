@@ -1,0 +1,71 @@
+*,
+::before ::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #439093;
+  --secondary-color: #f09b93;
+  --tertiary-color: #e9dd8a;
+  --text-color: black;
+}
+
+Body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #e9dd8a;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  padding: 20px;
+  font-size: 2rem;
+  background-color: #439093;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+article {
+  padding-top: 20px;
+}
+
+section {
+  padding: 0;
+  padding-top: 20px;
+  display: flex;
+}
+
+.next-trips {
+}
+
+h2 {
+  color: var(--secondary-color);
+  padding-bottom: 5px;
+}
+
+.landscapes {
+  width: 300px;
+  margin: 10px;
+}
