@@ -47,15 +47,26 @@ li {
   margin-right: 20px;
 }
 
+li:hover {
+  color: grey;
+}
+
 article {
   padding-top: 20px;
   padding-left: 10px;
 }
 
-.next-trips-images {
+h2 {
+  color: var(--secondary-color);
+  padding-bottom: 5px;
+}
+
+.next-trips-boxes {
   padding: 0;
   padding-top: 20px;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .parent-container {
@@ -72,11 +83,6 @@ article {
   padding: 10px;
   border-color: #f09b932c;
   border-radius: 10%;
-}
-
-h2 {
-  color: var(--secondary-color);
-  padding-bottom: 5px;
 }
 
 .landscapes {
