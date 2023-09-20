@@ -26,6 +26,7 @@ p {
 ul {
   list-style: none;
   padding: 10px;
+  padding-left: 30px;
   margin: 0;
   background-color: #e9dd8a;
 }
@@ -53,7 +54,8 @@ li:hover {
 
 article {
   padding-top: 20px;
-  padding-left: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 h2 {
@@ -73,6 +75,23 @@ h2 {
   position: relative;
   text-align: center;
   color: white;
+  object-fit: cover;
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.parent-container:hover {
+  opacity: 70%;
+  transition: opacity 0.5s;
+}
+
+.parent-container:hover {
+  transform: scale(1:1);
+  transition-delay::backdrop /* Review. */
 }
 
 .top-left {
@@ -82,12 +101,15 @@ h2 {
   background-color: #f09b93ab;
   padding: 10px;
   border-color: #f09b932c;
-  border-radius: 10%;
+  border-radius: 5px;
+  margin-top: 5px;
 }
 
 .landscapes {
   width: 280px;
+  height: 280px;
   margin: 10px;
+  border-radius: 5px;
 }
 
 footer {
